@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        
+
       # Gem caching
       - name: Gem caching
         id: gem_cache
@@ -26,4 +26,4 @@ jobs:
 
       - uses: maierj/fastlane-action@v3.1.0
         with:
-          lane: "test_app"
+          lane: "run_tests"
