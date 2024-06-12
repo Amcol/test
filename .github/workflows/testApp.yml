@@ -4,25 +4,15 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   build:
     runs-on: self-hosted
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.3'
-
-    - name: Install Fastlane
-      run: gem install fastlane
-
-    - name: Run tests
-      run: fastlane mac test_app
+      - uses: maierj/fastlane-action@v3.1.0
+        with:
+          lane: "test_app"
