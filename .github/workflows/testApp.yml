@@ -12,19 +12,5 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      # Gem caching
-      - name: Gem caching
-        id: gem_cache
-        uses: actions/cache@v2
-        continue-on-error: true
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-
-      - uses: maierj/fastlane-action@v3.1.0
-        with:
-          lane: "run_tests"
-          bundle-install-path: "vendor/bundle"
+      - name: Run tests
+        uses: fastlane run_tests
