@@ -12,6 +12,5 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Run tests
-        uses: fastlane mac run_tests
+      - name: run tests
+        run: fastlane mac run_tests
