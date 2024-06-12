@@ -27,3 +27,4 @@ jobs:
       - uses: maierj/fastlane-action@v3.1.0
         with:
           lane: "run_tests"
+          bundle-install-path: "vendor/bundle"
