@@ -13,7 +13,6 @@
 		49F511902C171E4C00F4A396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F5118F2C171E4C00F4A396 /* Preview Assets.xcassets */; };
 		49F5119B2C171E4C00F4A396 /* XCUITestSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5119A2C171E4C00F4A396 /* XCUITestSandboxTests.swift */; };
 		49F511A52C171E4C00F4A396 /* XCUITestSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F511A42C171E4C00F4A396 /* XCUITestSandboxUITests.swift */; };
-		49F511A72C171E4C00F4A396 /* XCUITestSandboxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F511A62C171E4C00F4A396 /* XCUITestSandboxUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		49F5119A2C171E4C00F4A396 /* XCUITestSandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestSandboxTests.swift; sourceTree = "<group>"; };
 		49F511A02C171E4C00F4A396 /* XCUITestSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUITestSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F511A42C171E4C00F4A396 /* XCUITestSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestSandboxUITests.swift; sourceTree = "<group>"; };
-		49F511A62C171E4C00F4A396 /* XCUITestSandboxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestSandboxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				49F511A42C171E4C00F4A396 /* XCUITestSandboxUITests.swift */,
-				49F511A62C171E4C00F4A396 /* XCUITestSandboxUITestsLaunchTests.swift */,
 			);
 			path = XCUITestSandboxUITests;
 			sourceTree = "<group>";
@@ -277,7 +274,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				49F511A52C171E4C00F4A396 /* XCUITestSandboxUITests.swift in Sources */,
-				49F511A72C171E4C00F4A396 /* XCUITestSandboxUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +421,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XCUITestSandbox/Preview Content\"";
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -452,7 +448,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XCUITestSandbox/Preview Content\"";
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -476,7 +472,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
@@ -495,7 +491,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
@@ -513,7 +509,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amcol.XCUITestSandboxUITests;
@@ -530,7 +526,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LMVT5328N;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amcol.XCUITestSandboxUITests;
